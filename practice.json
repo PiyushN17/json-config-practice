@@ -16,4 +16,9 @@
         "humidity": "abc.humidity",
         "description": "abc.description"
     }
+    , "output": {
+        "toShowTemp": "abc.temp",
+        "toShowHumidity": "abc.humidity",
+        "toShowDescription": "abc.description"
+    }
 }
