@@ -1,0 +1,19 @@
+{
+    "input": {
+        "city": "Patna"
+    },
+    "request": {
+        "method": "GET",
+        "url": "abc.com",
+        "params": {
+            "q": "{{input.city}}",
+            "units": "metrics",
+            "appid": "API Key"
+        }
+    },
+    "response_map": {
+        "temperature": "abc.temp",
+        "humidity": "abc.humidity",
+        "description": "abc.description"
+    }
+}
